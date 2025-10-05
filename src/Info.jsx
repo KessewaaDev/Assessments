@@ -1,0 +1,56 @@
+import React from 'react'
+import Navbar from './Navbar'
+
+const Info = () => {
+    const logo = {
+  src: "/autumn.png",
+  path: "/" 
+};
+    const info = [
+        
+    {
+        id:1,
+        title: "Providers",
+        path:"/providers",
+        showText:true
+
+    },
+    {
+        id:2,
+        title: "Guides",
+        path:"/guides",
+        showText:true
+
+    },
+    {
+        id:3,
+        title: "Memorials",
+        path: "/memorials",
+        showText:true
+    },
+    {
+        id:4,
+        title: "Library",
+        path: "/library",
+        icon: "loupe.png",
+        showText:false
+
+    },
+    {
+        id:5,
+        title: "pofile",
+        path: "/profile",
+        icon: "user.png",
+        showText:false
+    }
+ ]
+  return (
+ 
+    <div>
+        <Navbar data={info} logos={logo}/>
+
+    </div>
+  )
+}
+
+export default Info
