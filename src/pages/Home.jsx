@@ -1,10 +1,12 @@
 import React from 'react'
 import Firstpage from '../Firstpage'
+import Secondpart from '../Secondpart'
 
 const Home = () => {
   return (
-    <div>
+    <div className="content-area">
         <Firstpage />
+        <Secondpart />
     </div>
   )
 }

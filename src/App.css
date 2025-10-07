@@ -1,27 +1,26 @@
-body{
-  background-color: #F8F7F2;
+*{
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Inter' , sans-serif;
+  
 }
 .nav-bar{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 0 56px;
   height: 80px;
   background-color: #F8F7F2;
   border-bottom: 2px solid #eaeaea;
   width: 100%;
   box-sizing: border-box;
-  position: fixed;
+  
   top: 0;
   left: 0;
   z-index: 100;
 }
-.content-area{
-  padding-top: 80px;
-}
+
 .list-group {
   display: flex;
   gap: 1.5rem; 
@@ -29,11 +28,12 @@ body{
   padding: 0;
   list-style: none;
   align-items: center;
+  width: fit-content;
 }
 
 .list-group li {
   display: flex;
-  align-items: center;
+  place-content: center;
 }
 
 .list-group li span {
@@ -68,4 +68,127 @@ body{
   font-weight: 600;
   font-family: 'Inter' sans-serif;
 }
+
+.first-page{
+  
+  background-color: #F8F7F2;
+  min-height: calc(100vh -80px);
+  display: flex;
+  
+  
+
+}
+
+
+.first-page h1,
+.first-page p{
+  margin: 0;
+}
+
+.first-page h1{
+  margin-bottom: 10px;
+  
+}
+
+.first-page ul{
+  list-style: none;
+  display: flex;
+  
+  
+
+}
+
+.first-page ul img{
+  width: 16px;
+  height: 16px;
+
+}
+.hero-content{
+  max-width: 700px;
+  width: 1200px;
+  margin: 0px 32.33px;
+  padding: 0px 56px;
+}
+
+.hero-content h1{
+  color: black;
+  margin: 50px 0;
+  width: 525px;
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+.hero-content p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-size: 1.5rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: cente;
+  justify-content: center;
+  gap: 30px; 
+  background:#21B200;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  
+  font-size: 15.9px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  width: 225px;
+  margin: 8px 0;
+  padding: 20px 18px;
+  
+}
+
+
+
+.button-arrow {
+  width: 16px;
+  height: 16px;
+  
+}
+
+.position-elements{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.second-part h2{
+  width: 400px;
+  color: #000;
+  font-size: 32px;
+  margin: 8px 0px;
+  font-weight: normal;
+
+}
+
+.second-part h3{
+  
+  margin: 16px 0px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.second-part{
+  background-color: #fff;
+  width: 126.67;
+  padding: 15px 0px;
+}
+
+.hero-content2{
+  width: 1200px;
+  margin: 0px 32.33px;
+  padding: 0px 56px;
+}
+
 

@@ -1,8 +1,7 @@
 
 
 import './App.css'
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Info from './Info'
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, BrowserRouter } from 'react-router-dom'
 import Guides from './pages/Guides'
 import Home from './pages/Home'
 import Library from './pages/Library'
@@ -10,6 +9,7 @@ import Memorials from './pages/Memorials'
 import Providers from './pages/Providers'
 import Search from './pages/Search'
 import Rootlayout from './layout/Rootlayout'
+import Info from './Info'
 
 function App() {
   const router = createBrowserRouter(
@@ -29,8 +29,7 @@ function App() {
   
   return (
     <>
-    <RouterProvider router={router}/>
-    
+        <RouterProvider router={router}/>
     </>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
+import autumn from '/autumn.svg'
 
 const Info = () => {
     const logo = {
-  src: "/autumn.png",
-  path: "/" 
+        src: autumn,
+        path: "/" 
 };
     const info = [
         
@@ -48,7 +49,6 @@ const Info = () => {
  
     <div>
         <Navbar data={info} logos={logo}/>
-
     </div>
   )
 }

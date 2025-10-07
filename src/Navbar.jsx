@@ -8,7 +8,7 @@ const Navbar = ({data, logos}) => {
         
             <nav className='nav-bar'>
             <a href={logos.path} className='logo'>
-                <img src={logos.logo}  alt='logo'/>
+                <img src={logos.src}  alt='logo'/>
             </a>
             <ul className='list-group'>
             {data.map((infos) =>(
