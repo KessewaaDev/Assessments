@@ -10,6 +10,12 @@ import Providers from './pages/Providers'
 import Search from './pages/Search'
 import Rootlayout from './layout/Rootlayout'
 import Info from './Info'
+import Deathguide from './pages/Deathguide'
+import Funeralguide from './pages/Funeralguide'
+import SettleEstate from './pages/SettleEstate'
+import Supportmental from './pages/Supportmental'
+import Plan from './pages/Plan'
+import About from './pages/About'
 
 function App() {
   const router = createBrowserRouter(
@@ -21,6 +27,11 @@ function App() {
         <Route path='memorials' element = {<Memorials />}/>
         <Route path='providers' element = {<Providers />}/>
         <Route path='search' element ={<Search />}/>
+
+         <Route path='guides/immediately-after-death' element={<Deathguide />} />
+        <Route path='guides/funeral-planning' element={<Funeralguide />} />
+        <Route path = 'about' element = {<About />} />
+        
 
       </Route>
     )

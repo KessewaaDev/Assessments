@@ -1,9 +1,13 @@
 import React from 'react'
+import '../App.css'
+import Guidespage from '../Guidespage'
 
 const Guides = () => {
   return (
-    <div>
-        <h1>Guides</h1>
+    <div className='main-content'>
+      <Guidespage />
+     
+        
     </div>
   )
 }

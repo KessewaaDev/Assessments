@@ -4,7 +4,7 @@ import {Link } from 'react-router-dom'
 
 const Navbar = ({data, logos}) => {
   return (
-    <div>
+    
         
             <nav className='nav-bar'>
             <a href={logos.path} className='logo'>
@@ -27,7 +27,7 @@ const Navbar = ({data, logos}) => {
         
         </nav>
         
-    </div>
+    
   )
 }
 

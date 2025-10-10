@@ -47,9 +47,9 @@ const Info = () => {
  ]
   return (
  
-    <div>
+    
         <Navbar data={info} logos={logo}/>
-    </div>
+    
   )
 }
 
