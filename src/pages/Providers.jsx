@@ -1,9 +1,15 @@
 import React from 'react'
+import '../App.css'
+import FirstProviderpage from '../FirstProviderpage'
+import SecondProvider from '../SecondProvider'
+import Footer from '../Footer'
 
 const Providers = () => {
   return (
-    <div>
-        <h1>Providers</h1>
+    <div className='main'>
+        <FirstProviderpage />
+        <SecondProvider />
+        <Footer/>
     </div>
   )
 }

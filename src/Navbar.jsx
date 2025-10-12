@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import {Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = ({data, logos}) => {
   return (
@@ -14,10 +14,10 @@ const Navbar = ({data, logos}) => {
             {data.map((infos) =>(
             
                 <li key={infos.id}>
-                    <Link to={infos.path}>
+                    <NavLink to={infos.path} className={({ isActive }) => (isActive ? 'active-link' : '')}>
                         {infos.icon && <img src={infos.icon} alt={`${infos.title} icon`} />}
                         {infos.showText && <span>{infos.title}</span>}
-                    </Link>
+                    </NavLink>
                 </li>
                 
             

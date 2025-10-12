@@ -1,9 +1,14 @@
 import React from 'react'
+import FirstMemorial from '../FirstMemorial'
+import SecondMemorial from '../SecondMemorial'
+import Footer from '../Footer'
 
 const Memorials = () => {
   return (
     <div>
-        <h1>Memorials</h1>
+        <FirstMemorial />
+        <SecondMemorial />
+        <Footer />
     </div>
   )
 }
