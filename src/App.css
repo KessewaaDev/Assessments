@@ -1,4 +1,5 @@
-*{
+
+  *{
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
@@ -13,6 +14,9 @@ img{
 }
 body{
   background-color: #F8F7F2;
+}
+.content-area{
+  width: 100vw;
 }
 .nav-bar{
   display: flex;
@@ -129,7 +133,7 @@ body{
 }
 .hero-content{
   max-width: 700px;
-  width: 1200px;
+  width: 100%;
   margin: 0px 32.33px;
   padding: 0px 56px;
 }
@@ -188,7 +192,7 @@ body{
   display: flex;
   align-items: center;
   gap: 15px;
-  width: 1088px;
+  width: 100%;
   padding: 0px 0px 32px;
 }
 
@@ -215,16 +219,16 @@ body{
 
 .second-part{
   background-color: #fff;
- width: 100%;
-  margin: 0px 32.33px;
+  width: 100%;
+  /* margin: 0px 32.33px; */
   padding: 0px 56px;
- 
+  box-sizing: border-box;
+
 }
 
 .hero-content2{
   width: 100%;
   margin: 48px 0px;
-  
 }
 
 .hero-content2 h2{
@@ -300,7 +304,7 @@ body{
 
 .hero-content4{
   max-width: 100%;
-  margin: 60px auto 0;
+  /* margin: 60px auto 0; */
   padding: 0 56px;
   
 }
@@ -465,10 +469,12 @@ body{
   background-color: #fff;
   border-radius: 16px;
   border: 1px solid gray;
+  box-sizing: border-box;
 }
 
 .rcontainer{
   width: 100%;
+  box-sizing: border-box;
   margin: 0px 0px 56px;
   padding: 0px 56px;
   background-color: #F8F7F2;
@@ -486,9 +492,10 @@ body{
 
 
 .faq-container{
+  box-sizing: border-box;
   width: 100%;
   padding: 0px 56px;
-  margin: 0px 32.33px;
+  /* margin: 0px 32.33px; */
   background-color: #F8F7F2;
 }
 
@@ -559,9 +566,9 @@ body{
 
 .expert-container{
   width: 100%;
-  margin: 0px 32.33px;
+  /* margin: 0px 32.33px; */
   padding: 0px 56px;
-  
+  box-sizing: border-box;
 }
 
 .mostviewed-subcontain{
@@ -575,9 +582,10 @@ body{
 
 .mostviewed-container{
   width: 100%;
-  margin: 0px 32.33px;
+  /* margin: 0px 32.33px; */
   padding: 0px 56px;
   background-color: #F8F7F2;
+  box-sizing: border-box;
 }
 
 .mv-group{
@@ -610,6 +618,7 @@ body{
   padding: 0px 56px;
   background-color: #F8F7F2;
   padding-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .mission-subcontain{
@@ -618,6 +627,7 @@ body{
   border: 1px solid gray;
   border-radius: 18px;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 
@@ -652,6 +662,7 @@ body{
   width: 100%;
   background-color: #363836;
   padding: 0px 56px;
+  box-sizing: border-box;
 }
 
 .footer-subcontain{
