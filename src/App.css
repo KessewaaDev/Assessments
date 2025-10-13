@@ -6,6 +6,11 @@
   
   
 }
+
+img{
+  display: block;
+  max-width: 100%;
+}
 body{
   background-color: #F8F7F2;
 }
@@ -361,6 +366,21 @@ body{
   margin: 96px auto 0;
   padding: 0;
 }
+.sg-container{
+  width: 100%;
+  margin: -4px 0px 0px -4px;
+  padding: 48px 0px;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+
+
+}
+
+.sg-con a{
+  color: #000;
+
+
+}
 
 .guide1 h1{
   width: 570px;
@@ -382,13 +402,16 @@ body{
 
 .guide-group{
   display: flex;
-  gap: 5px;
+  gap: 25px;
 }
 
 .guide-category{
   display: flex;
-  gap: 35px;
+  gap: 80px;
+  justify-content: space-between;
 }
+
+
 
 .review-lists{
   display: flex;
@@ -849,6 +872,10 @@ body{
 
 }
 
+.sp-subgroup button{
+  margin-top: 40px;
+}
+
 .fm-container{
   width: 100%;
   margin: 0px 32.33px;
@@ -1049,4 +1076,48 @@ body{
 }
 .f-groups h4{
   color: #fff;
+}
+
+
+.fg-container{
+  width: 100%;
+  padding: 0px 56px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+.fg-subcontain{
+  width: 100%;
+  padding: 0px 56px;
+  background-color: #fff;
+  border-radius: 18px;
+  border: 1px solid gray;
+
+}
+
+.fg-group{
+  width: 100%;
+  padding: 48px 0px;
+
+}
+.fg-subgroup{
+  width: 692.89px;
+
+}
+.fg-subgroup h2{
+  width: 480px;
+  font-size: 44px;
+  margin: 0px 0px 16px 1.6px;
+  font-weight: normal;
+}
+
+.fg-subgroup p{
+  width: 480px;
+  font-size: 20px;
+  margin: 32px 0px 0px;
+}
+
+.fg-subgroup button{
+  margin-top: 30px;
 }

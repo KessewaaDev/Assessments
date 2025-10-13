@@ -6,6 +6,11 @@ import './App.css'
 
 
 const ContactForm = () => {
+  const[firstname, setFirstname] = useState("");
+  const[lastname, setLastname]  =useState("");
+  const[email, setEmail] =useState("");
+  const[subject, setSubject] = useState("");
+  const[message, setMessage] = useState("")
   return (
     <div className='cf-container'>
         <div className='cf-subcontain'>
@@ -20,10 +25,10 @@ const ContactForm = () => {
                 <input type='email' placeholder='Email' required /><br/>
                 <select id="country" name="country" required><br/>
                <option value="">What can i help you with</option>
-               <option value="ghana">Ghana</option>
-                <option value="nigeria">Nigeria</option>
-               <option value="kenya">Kenya</option>
-              <option value="south-africa">South Africa</option>
+               <option value="">Funeral</option>
+                <option value="">Estate</option>
+               <option value="">Grief</option>
+              <option value="">Library</option>
             </select><br/>
             <input type='text' placeholder='Subject' required /><br/>
             <textarea placeholder='message'></textarea>

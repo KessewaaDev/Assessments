@@ -4,9 +4,10 @@ import './App.css'
 
 const Guidecard = ({data}) => {
   return (
-    <div>
+    <div className='sg-con'>
         {data.map((guide)=>(
             <Link to={guide.path} className="guide-card">
+                <div className='sg-container'>
                 <div className='guide-category'>
                     <div className='guide-group'>
                     <div >
@@ -19,6 +20,7 @@ const Guidecard = ({data}) => {
                     </div>
                     <span className='arrow'>→</span>
 
+                </div>
                 </div>
       
       
