@@ -16,6 +16,7 @@ import SettleEstate from './pages/SettleEstate'
 import Supportmental from './pages/Supportmental'
 import Plan from './pages/Plan'
 import About from './pages/About'
+import Contact from './pages/Contact'
 
 function App() {
   const router = createBrowserRouter(
@@ -31,6 +32,7 @@ function App() {
          <Route path='guides/immediately-after-death' element={<Deathguide />} />
         <Route path='guides/funeral-planning' element={<Funeralguide />} />
         <Route path = 'about' element = {<About />} />
+        <Route path = 'contact' element= {<Contact />}/>
         
 
       </Route>

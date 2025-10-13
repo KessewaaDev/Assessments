@@ -222,6 +222,10 @@ body{
   
 }
 
+.hero-content2 h2{
+  padding-top: 40px;
+}
+
 
  .heroContent3{
   
@@ -617,6 +621,10 @@ body{
 
 }
 
+.m-group button{
+  margin-bottom: 30px;
+}
+
 .footer-container{
   width: 100%;
   background-color: #363836;
@@ -627,20 +635,43 @@ body{
   width: 100%;
   padding: 48px 32px;
   display: flex;
+  gap: 200px;
 
 }
 
+
 .f-group img{
   width: 105px;
+  padding-bottom: 10px;
 }
 
 .f-group p{
   color: #fff;
+  padding-bottom: 10px;
 }
+
+.f-group input::placeholder{
+  color: #000;
+
+}
+.f-group input:hover{
+  width: 250px;
+  padding: 16.5px 14px;
+  border-radius: 14px;
+  border: 1px solid #000;
+  background-color: #363836;
+}
+
+.f-group input{
+  background: none;
+  border: none;
+}
+
 
 .flist ul{
   list-style: none;
   color: #fff;
+  padding-bottom: 10px;
 
 }
 
@@ -824,6 +855,14 @@ body{
   padding: 0px 56px;
 }
 
+.fm-container button img{
+  width: 20px;
+  
+
+  
+
+}
+
 .fm-subcontain{
   width: 100%;
   margin: 96px 0px 48px;
@@ -922,4 +961,92 @@ body{
 
 .sm-group button{
   margin-top: 30px;
+}
+
+
+.cf-container{
+  width:100% ;
+  max-width: 0px 32.33px;
+  padding: 0px 56px;
+}
+
+.cf-subcontain{
+  width: 100%;
+  margin: 96px 0px 48px;
+}
+
+.cf-subcontain h1{
+  width: 560px;
+  margin: 16px 0px 32px;
+  font-size: 80px;
+  font-weight: none;
+  padding: 64px 48px 0px 0px
+
+}
+
+.cf-subcontain p{
+  width: 668px;
+  font-size: 24px;
+  margin: 24px 0px;
+
+}
+
+.cf-group{
+  width: 720px;
+  margin: 0px 0px 48px;
+  padding: 0px 48px 0px 4px;
+}
+
+.cf-group input{
+  width: 668px;
+  padding: 16.5px 14px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  background-color: #F8F7F2;
+  
+  
+
+}
+
+
+.cf-group input::placeholder{
+  color: #000;
+}
+
+.cf-group textarea{
+  width: 668px;
+  padding:16.5px 14px ;
+  border-radius: 10px;
+  background-color:#F8F7F2;
+}
+
+.cf-group textarea::placeholder{
+  color: #000;
+}
+
+.cf-group select{
+  width: 668px;
+  padding: 16.5px 14px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #F8F7F2;
+}
+
+.cf-group button{
+  margin-top: 30px;
+}
+
+.f-groups{
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  
+}
+
+.f-groups a{
+  color: #fff;
+}
+.f-groups h4{
+  color: #fff;
 }

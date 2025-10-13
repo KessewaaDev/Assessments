@@ -10,7 +10,7 @@ const SecondMemorial = () => {
                 <div className='sm-subgroup'>
                     <h2>Autumn has what you need to manage life after loss</h2>
                     <p>Navigating life after a death and need more support ? Contact us and we'll help for free. </p>
-                    <Button value="Contact us" to ="/contact" />
+                    <Button value="Contact us" to ='/contact' />
 
                 </div>
 
