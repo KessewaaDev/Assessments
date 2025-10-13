@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
   font-family: 'Inter' , sans-serif;
@@ -1120,4 +1120,178 @@ body{
 
 .fg-subgroup button{
   margin-top: 30px;
+}
+
+@media screen and (max-width:700px) {
+  .nav-bar{
+    padding: 0px 20px;
+  }
+  .list-group{
+    gap: 10px;
+  }
+  .list-group>:nth-child(1){
+    display: none;
+  }
+  .list-group>:nth-child(2){
+    display: none;
+  }
+  .list-group>:nth-child(3){
+    display: none;
+  }
+  .first-page{
+    padding-top: 50px;
+    width: 100vw;
+  }
+  .hero-content{
+    padding: 0 20px;
+    margin: 0;
+    max-width: unset;
+    width: 100%;
+  }
+  .hero-content h1 {
+    margin: 50px 0;
+    font-size: 3.5rem;
+    font-weight: normal;
+    width: unset;
+  }
+  .hero-content p {
+    font-size: 17px;
+  }
+  .position-elements {
+    gap: 5px;
+    width: 100%;
+    padding: 0px 0px 20px;
+  }
+  .second-part {
+    width: 100vw;
+    margin: 0;
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  .third-part {
+    margin: 0;
+  }
+  .second-part h2{
+    width: fit-content;
+  }
+  .heroContent3{
+    margin: 0;
+  }
+  .grouping {
+    flex-wrap: wrap;
+  }
+  .fourth-part{
+    width: 100vw;
+  }
+  .rcontainer {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 0px 20px;
+  }
+  .reviews-container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .reviews-info h2 {
+    width: unset; 
+    font-size: 30px;
+  }
+  .reviewscard-container{
+    flex-wrap: wrap;
+  }
+  .faq-container {
+    width: 100vw;
+    padding: 0px 20px;
+    margin: 0; 
+    box-sizing: border-box;
+  }
+  .expert-container{
+    padding: 0 20px;
+    margin: 0;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .expert-subcontain h1 {
+    width: unset !important;
+    font-size: 31.25px;
+    font-weight: normal;
+  }
+  .expert-subcontain h3 {
+    width: unset;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 16px 0px;
+  }
+  .mostviewed-container {
+    width: 100vw;
+    margin: 0px; 
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  .mostviewed-subcontain{
+    flex-wrap: wrap;
+  }
+  .mv-list {
+    display: block;
+    width: unset;
+    margin: 0px;
+  }
+  .mv-list li{
+    list-style: none !important;
+  }
+  .mission-container{
+    padding: 0 20px;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .mission-subcontain{
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .m-group h2 {
+    width: unset;
+    font-size: 31.25px;
+    font-weight: normal;
+    margin: 0px 0px 16px 1.6px;
+    padding-top: 30px;
+  } 
+  .m-group p {
+    width: unset;
+    font-size: 20px;
+    margin: 32px 0px 0px;
+    padding-bottom: 15px;
+  }
+  .m-group{
+    width: 100%;
+  }
+  .footer-container{
+    width: 100vw;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .footer-subcontain{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .f-subgroup{
+    width: 100%;
+  }
+  .f-groups{
+    gap: 10px;
+    display: grid;
+    justify-content: unset;
+    font-size: 20px;
+  }
+  .sub-group{
+    width: unset;
+  }
+  .faq-subcontain h1 {
+    width: unset;
+    font-size: 31.25px;
+  }
 }
