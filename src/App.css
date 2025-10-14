@@ -1132,7 +1132,50 @@ body{
 .fg-subgroup button{
   margin-top: 30px;
 }
+.fp-container {
+  width: 100%;
+  margin: 0;
+  padding: 0px 56px;
+  box-sizing: border-box;
+}
+.provider-container {
+  box-sizing: border-box;
+}
+.sp-container {
+  box-sizing: border-box;
+}
+.sp-subcontain {
+  box-sizing: border-box;
+}
+.footer-container {
+  box-sizing: border-box;
+}
+.footer-subcontain {
+  padding: 48px 0;
+  box-sizing: border-box;
+}
 
+.guide1 {
+  box-sizing: border-box;
+}
+.fg-container{
+  box-sizing: border-box;
+}
+.fg-subcontain{
+  box-sizing: border-box;
+}
+.sm-container{
+  box-sizing: border-box;
+}
+.sm-subcontain{
+  box-sizing: border-box;
+}
+.fm-subcontain,.fm-container,.gContainer {
+  box-sizing: border-box;
+}
+.fm-container{
+  margin: 0;
+}
 @media screen and (max-width:700px) {
   .nav-bar{
     padding: 0px 20px;
