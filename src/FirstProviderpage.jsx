@@ -3,6 +3,7 @@ import './App.css'
 import Searchbar from './Searchbar'
 import { boxes } from './cards'
 import Boxcards from './Boxcards'
+import { Link } from 'react-router-dom'
 
 
 const FirstProviderpage = () => {
@@ -19,7 +20,7 @@ const FirstProviderpage = () => {
 
         <div className='provider-container'>
             
-                <p>We couldn't find a provider near you. But don't worry, please <a href='/contact'>contact us</a> and we'll personally help you find the support you need.</p>
+                <p>We couldn't find a provider near you. But don't worry, please <Link to ='/contact'>contact us</Link> and we'll personally help you find the support you need.</p>
 
             
 

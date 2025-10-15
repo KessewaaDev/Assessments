@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import { Link } from 'react-router-dom'
 
 
 const Sidebar = ({ isOpen,  logos, onClose}) => {
@@ -15,27 +16,27 @@ const Sidebar = ({ isOpen,  logos, onClose}) => {
 
              <div className='spr-2'>
                 <ul>
-                    <li><a href='/providers'>Providers</a></li>
-                    <li><a href="/guides">Guides</a></li>
-                    <li><a href="/memorials">Memorials</a></li>
-                    <li><a href="/library">Library</a></li>
-                    <li><a href="/glossary" className='glossary'>Glossary</a></li>
+                    <li><Link to='/providers'>Providers</Link></li>
+                    <li><Link to = '/guides'>Guides</Link></li>
+                    <li><Link to = '/memorials'>Memorials</Link></li>
+                    <li><Link to ='/library'>Library</Link></li>
+                    <li><Link to ='/glossary'>Glossary</Link></li>
                     
 
                 </ul>
             </div>
 
             <div className='spr-3'>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/terms">Terms</a></li>
-                <li><a href="/privacy" className='privacy'>Privacy</a></li>
+                <li><Link to ='/about'>About</Link></li>
+                <li><Link to ='/contact'>Contact</Link></li>
+                <li><Link to = '/terms'>Terms</Link></li>
+                <li><Link to ='/privacy'>Privacy</Link></li>
             </div>
 
             <div className='spr-4'>
                 <ul>
-                    <li><a href="/signup">Sign up</a></li>
-                    <li><a href="/login">Log in</a></li>
+                    <li><Link to ='/signup'>Sign up</Link></li>
+                    <li><Link to = '/login'>Log in</Link></li>
                 </ul>
                 
                   
