@@ -53,6 +53,7 @@ body{
   list-style: none;
   align-items: center;
   width: fit-content;
+  
 }
 
 .list-group li {
@@ -1176,13 +1177,120 @@ body{
 .fm-container{
   margin: 0;
 }
+
+.hamburger-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.hamburger{
+  display: none;
+}
+
+
+  
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;                 
+  height: 100vh;            
+  width: 100%;             
+  background-color: #F8F7F2;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);   
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.sidebar li{
+  list-style: none;
+  font-family: "Inter" sans-serif;
+  padding: 16px 8px;
+  margin: 0px 14px;
+  
+  
+
+}
+
+.sidebar img{
+  width: 150px;
+}
+
+.sidebar button{
+  border: none;
+}
+.spr-1{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DAD9D5;
+  align-self: stretch;
+}
+.glossary{
+  border-bottom: 1px solid #DAD9D5;
+  width: 100%;
+}
+
+/* When isOpen = true */
+.sidebar.open {
+  transform: translateX(0); 
+}
+
+/* Sidebar Links */
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+/* Optional close button inside sidebar */
+.sidebar .close-btn {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+/* Hide sidebar on desktop */
+@media screen and (min-width: 701px) {
+  .sidebar {
+    display: none;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:700px) {
+  .hamburger {
+  display: block;
+  cursor: pointer;
+  z-index: 1000; 
+}
+.sidebar{
+  -webkit-overflow-scrolling:touch;
+}
   .nav-bar{
     padding: 0px 20px;
   }
-  .list-group{
-    gap: 10px;
-  }
+  
   .list-group>:nth-child(1){
     display: none;
   }
@@ -1348,4 +1456,10 @@ body{
     width: unset;
     font-size: 31.25px;
   }
+
+  .hamburger{
+    display: block;
+    z-index: 100;
+  }
 }
+

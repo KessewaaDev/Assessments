@@ -1,8 +1,12 @@
-import React from 'react'
+
 import './App.css'
 import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
+import Sidebar from './Sidebar'
 
 const Navbar = ({data, logos}) => {
+const[isOpen, setIsOpen] = useState(false)
+
   return (
     
         
@@ -10,7 +14,9 @@ const Navbar = ({data, logos}) => {
             <a href={logos.path} className='logo'>
                 <img src={logos.src}  alt='logo'/>
             </a>
-            <ul className='list-group'>
+
+          
+            <ul className= "list-group">
             {data.map((infos) =>(
             
                 <li key={infos.id}>
@@ -20,10 +26,22 @@ const Navbar = ({data, logos}) => {
                     </NavLink>
                 </li>
                 
+                
             
           
         ))}
+        <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+            <img
+             src={isOpen ? '/close.png' : '/hamburger.png'}
+            alt="menu"
+            className="hamburger-icon"
+            />
+      </div>
+          
         </ul>
+        
+        
+        <Sidebar isOpen={isOpen} logos={logos} onClose = {() =>setIsOpen(false)}/>
         
         </nav>
         

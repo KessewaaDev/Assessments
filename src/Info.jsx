@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import autumn from '/autumn.svg'
 
+
 const Info = () => {
     const logo = {
         src: autumn,
@@ -43,8 +44,12 @@ const Info = () => {
         path: "/profile",
         icon: "user.png",
         showText:false
-    }
+    },
+
+    
  ]
+
+ 
   return (
  
     
