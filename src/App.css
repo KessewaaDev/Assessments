@@ -1523,23 +1523,24 @@ body{
     
   }
   .sp-subcontain{
-    width: unset;
-    padding-left: 9px;
+    width: 100%;
+    padding: 0px 24px;
+    box-sizing: border-box;
   }
   .sp-subgroup h2{
     width: unset;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0px;
     font-weight: bold;
   }
 
   .sp-subgroup p {
-  font-size: 17px;
+  font-size: 15px;
   
 }
 
   .sp-subgroup button{
-    width: 52%;
+    width: 46%;
   }
 
   .gContainer{
@@ -1584,18 +1585,22 @@ body{
 
   .fg-subcontain h2{
      width: unset;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0px;
     font-weight: bold;
 
   }
 
   .fg-subcontain p{
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .fg-subcontain button{
     width: 40%;
+  }
+
+  .search-btn{
+    padding: 10px;
   }
 
   
