@@ -1512,7 +1512,7 @@ body{
     width: unset;
     display: flex;
     flex-wrap: wrap;
-    padding: 9px 20px 8px 10px;
+    padding: 9px 20px  9px;
     
   }
   .sp-container{
@@ -1528,21 +1528,18 @@ body{
   }
   .sp-subgroup h2{
     width: unset;
-    font-size: 26px;
+    font-size: 24px;
     margin: 0px;
     font-weight: bold;
   }
 
   .sp-subgroup p {
-  width: 100%;
-  white-space: normal;
-  overflow-wrap: break-word;
-  word-break: break-word;
+  font-size: 17px;
   
 }
 
   .sp-subgroup button{
-    width: 62%;
+    width: 52%;
   }
 
   .gContainer{
@@ -1587,14 +1584,18 @@ body{
 
   .fg-subcontain h2{
      width: unset;
-    font-size: 26px;
+    font-size: 20px;
     margin: 0px;
     font-weight: bold;
 
   }
 
+  .fg-subcontain p{
+    font-size: 15px;
+  }
+
   .fg-subcontain button{
-    width: 53%;
+    width: 40%;
   }
 
   
