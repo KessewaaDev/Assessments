@@ -16,27 +16,27 @@ const Sidebar = ({ isOpen,  logos, onClose}) => {
 
              <div className='spr-2'>
                 <ul>
-                    <li><Link to='/providers'>Providers</Link></li>
-                    <li><Link to = '/guides'>Guides</Link></li>
-                    <li><Link to = '/memorials'>Memorials</Link></li>
-                    <li><Link to ='/library'>Library</Link></li>
-                    <li><Link to ='/glossary'>Glossary</Link></li>
+                    <li><Link to='/providers'onClick={onClose}>Providers</Link></li>
+                    <li><Link to = '/guides' onClick={onClose}>Guides</Link></li>
+                    <li><Link to = '/memorials' onClick={onClose}>Memorials</Link></li>
+                    <li><Link to ='/library' onClick={onClose}>Library</Link></li>
+                    <li><Link to ='/glossary' onClick={onClose}>Glossary</Link></li>
                     
 
                 </ul>
             </div>
 
             <div className='spr-3'>
-                <li><Link to ='/about'>About</Link></li>
-                <li><Link to ='/contact'>Contact</Link></li>
-                <li><Link to = '/terms'>Terms</Link></li>
-                <li><Link to ='/privacy'>Privacy</Link></li>
+                <li><Link to ='/about' onClick={onClose}>About</Link></li>
+                <li><Link to ='/contact' onClick={onClose}>Contact</Link></li>
+                <li><Link to = '/terms' onClick={onClose}>Terms</Link></li>
+                <li><Link to ='/privacy'onClick={onClose}>Privacy</Link></li>
             </div>
 
             <div className='spr-4'>
                 <ul>
-                    <li><Link to ='/signup'>Sign up</Link></li>
-                    <li><Link to = '/login'>Log in</Link></li>
+                    <li><Link to ='/signup' onClick={onClose}>Sign up</Link></li>
+                    <li><Link to = '/login' onClick={onClose}>Log in</Link></li>
                 </ul>
                 
                   
