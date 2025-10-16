@@ -8,8 +8,8 @@ const SecondGuide = () => {
         <div className='fg-subcontain'>
             <div className='fg-group'>
                 <div className='fg-subgroup'>
-                    <h2>Autumn has what you need to manage after loss</h2>
-                    <p>Navigating life after a death and need more support ? Contact us we'll help for free</p>
+                    <h2>Autumn has what you need to<br/> manage after loss</h2>
+                    <p>Navigating life after a death and need more <br/>support ? Contact us we'll help for free</p>
                     <Button value="Contact us" to='/contact'/>
 
                 </div>

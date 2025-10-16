@@ -3,7 +3,8 @@
     id: 1,
     title: "Immediately After Death",
     description: "What to do in the hours and days following a loss.",
-    path: "/guides/immediately-after-death"
+    path: "/guides/immediately-after-death",
+    icon: "photo-camera.png"
   },
   {
     id: 2,

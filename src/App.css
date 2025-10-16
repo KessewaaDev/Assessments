@@ -1260,6 +1260,10 @@ body{
   cursor: pointer;
 }
 
+.provider-container a{
+  color: #21B200;
+}
+
 
 
 /* Hide sidebar on desktop */
@@ -1397,11 +1401,9 @@ body{
   .mv-list {
     display: block;
     width: unset;
-    margin: 0px;
+    margin: 0px 10px;
   }
-  .mv-list li{
-    list-style: none !important;
-  }
+  
   .mission-container{
     padding: 0 20px;
     width: 100vw;
@@ -1433,6 +1435,9 @@ body{
     padding: 0 20px;
     box-sizing: border-box;
   }
+  .footer-container a{
+    font-size: 15px;
+  }
   .footer-subcontain{
     width: 100%;
     padding: 0;
@@ -1442,6 +1447,9 @@ body{
   }
   .f-subgroup{
     width: 100%;
+  }
+  .f-group img{
+    padding-top: 30px;
   }
   .f-groups{
     gap: 10px;
@@ -1461,5 +1469,136 @@ body{
     display: block;
     z-index: 100;
   }
+
+  .m-group button, .hero-content button {
+    width: 100%;
+
+  }
+
+  .sp-subgroup button{
+    width: 100%;
+  }
+
+  .fp-container{
+    padding-top: 50px;
+    width: 100vw;
+  }
+  
+  .fp-subcontain{
+    padding: 0px 20px;
+    margin: 0;
+    max-width: unset;
+    width: 100%;
+  }
+
+  .fp-subcontain h1{
+    margin: 0px;
+    font-size: 3.5rem;
+    font-weight: normal;
+    width: unset;
+  }
+  
+  .fp-subcontain p{
+    font-size: 24px;
+    width: unset;
+  }
+
+  .boxcard-container{
+    width: 100vw;
+    padding-top: 10px;
+  }
+
+  .boxcard-subcontain{
+    width: unset;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px 20px 8px 10px;
+    
+  }
+  .sp-container{
+    width: 100vw;
+    box-sizing: border-box;
+    padding:0px 24px ;
+    margin-bottom: 10px;
+    
+  }
+  .sp-subcontain{
+    width: unset;
+    padding-left: 9px;
+  }
+  .sp-subgroup h2{
+    width: unset;
+    font-size: 26px;
+    margin: 0px;
+    font-weight: bold;
+  }
+
+  .sp-subgroup p {
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  
+}
+
+  .sp-subgroup button{
+    width: 62%;
+  }
+
+  .gContainer{
+    padding-top: 50px;
+    width: 100vw;
+  }
+
+  .guide1{
+    padding: 0px 20px;
+    margin: 0px;
+    max-width: unset;
+    width: 100%;
+  }
+
+  .guide1 h1{
+     margin: 0px;
+    font-size: 3.5rem;
+    font-weight: normal;
+    width: unset;
+
+  }
+
+  .guide1 p{
+     font-size: 24px;
+    width: unset;
+    padding-top: 20px;
+
+  }
+
+  .fg-container{
+     width: 100vw;
+    box-sizing: border-box;
+    padding:0px 24px ;
+    margin-bottom: 10px;
+    
+
+  }
+
+  .fg-subcontain{
+    width: unset;
+  }
+
+  .fg-subcontain h2{
+     width: unset;
+    font-size: 26px;
+    margin: 0px;
+    font-weight: bold;
+
+  }
+
+  .fg-subcontain button{
+    width: 53%;
+  }
+
+  
+
+  
 }
 
